@@ -390,6 +390,9 @@ df.to_csv('/Users/lau/Desktop/prediction.csv', index=False)
 
 ### Result
 
+public $R^{2}$ score: **0.656816298899** <br>
+private $R^{2}$ score: **0.604249316334**
+
 
 ```python
 
