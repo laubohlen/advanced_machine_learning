@@ -435,7 +435,9 @@ plot_examples(1, train_eeg2, False) # choose class or choose to show all classes
 ```
 
 
+    
 ![png](task04_svc_files/task04_svc_8_0.png)
+    
 
 
 
@@ -481,35 +483,51 @@ ts, filtered, features_ts, theta, alpha_low, alpha_high, beta, gamma, plf_pairs,
 ```
 
 
+    
 ![png](task04_svc_files/task04_svc_11_0.png)
+    
 
 
 
+    
 ![png](task04_svc_files/task04_svc_11_1.png)
+    
 
 
 
+    
 ![png](task04_svc_files/task04_svc_11_2.png)
+    
 
 
 
+    
 ![png](task04_svc_files/task04_svc_11_3.png)
+    
 
 
 
+    
 ![png](task04_svc_files/task04_svc_11_4.png)
+    
 
 
 
+    
 ![png](task04_svc_files/task04_svc_11_5.png)
+    
 
 
 
+    
 ![png](task04_svc_files/task04_svc_11_6.png)
+    
 
 
 
+    
 ![png](task04_svc_files/task04_svc_11_7.png)
+    
 
 
 
@@ -1001,7 +1019,9 @@ plot_confusion_matrix(estimator, X_train_scaled, y_train)
 
 
 
+    
 ![png](task04_svc_files/task04_svc_29_1.png)
+    
 
 
 ### Predicting on test set
@@ -1023,8 +1043,11 @@ df.to_csv(path, index=False)
 
 ### Result
 
-public BMAC score: **0.914024750101** <br>
-private BMAC score: **0.930690685031**
+| BMAC scores | |
+:- | :-
+hard baseline | 0.948
+public test set | 0.9140
+private test set | 0.9307
 
 
 ```python

@@ -410,7 +410,9 @@ plot_confusion_matrix(svmc, X, y)
 
 
 
+    
 ![png](02task_svm_files/02task_svm_35_1.png)
+    
 
 
 ### Predicting on test set
@@ -452,8 +454,11 @@ df.to_csv(path, index=False)
 
 ### Result
 
-public balanced multi class accuracy score:  **0.723687894983** <br>
-private balanced multi class accuracy score: **0.699870328496**
+| BMAC scores | |
+:- | :-
+hard baseline | 0.7
+public test set | 0.7237
+private test set | 0.6999
 
 
 ```python

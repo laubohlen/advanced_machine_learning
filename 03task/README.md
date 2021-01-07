@@ -513,7 +513,9 @@ plt.plot(best_params)
 
 
 
+    
 ![png](03task_gradient_boosting_files/03task_gradient_boosting_18_1.png)
+    
 
 
 ### Predict on test set
@@ -550,8 +552,11 @@ df.to_csv(path, index=False)
 
 ### Result
 
-public F-measure (micro) score: **0.814662756598** <br>
-private F-measure (micro) score: **0.82590855803**
+| F-measure (micro) | |
+:- | :-
+hard baseline | 0.82
+public test set | 0.8147
+private test set | 0.8259
 
 
 ```python
